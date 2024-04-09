@@ -29,8 +29,12 @@ export const Section = styled.section<SectionProps>`
     flex-direction: column;
   }
 `
+interface SectionTitleProps {
+  main?: boolean;
+  center?: boolean;
+}
 
-export const SectionTitle = styled.h2`
+export const SectionTitle = styled.h2<SectionTitleProps>`
   font-weight: 800;
   font-size: ${(props: any) => props.main ? '65px' : '56px'};
   line-height: ${(props: any) => props.main ? '72px' : '56px'};
@@ -172,7 +176,13 @@ export const SecondaryBtn = styled.button`
   }
 `
 
-export const ButtonBack = styled.div`
+interface ButtonProps {
+  alt?: boolean;
+  form?: boolean;
+  disabled?: boolean;
+}
+
+export const ButtonBack = styled.div<ButtonProps>`
   width: ${({ alt }: any) => alt ? '150px' : '262px'};
   height: ${({ alt }: any) => alt ? '52px' : '64px'};
   border-radius: 50px;
@@ -205,7 +215,7 @@ export const ButtonBack = styled.div`
   }
 `
 
-export const ButtonFront = styled.button`
+export const ButtonFront = styled.button<ButtonProps>`
   border: none;
   border-radius: 50px;
   color: #fff;
