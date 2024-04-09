@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 interface SectionProps {
-  grid?: boolean;
-  row?: boolean;
-  nopadding?: boolean;
+  grid?: string;
+  row?: string;
+  nopadding?: string;
 }
 
 export const Section = styled.section<SectionProps>`
@@ -30,8 +30,8 @@ export const Section = styled.section<SectionProps>`
   }
 `
 interface SectionTitleProps {
-  main?: boolean;
-  center?: boolean;
+  main?: string;
+  center?: string;
 }
 
 export const SectionTitle = styled.h2<SectionTitleProps>`

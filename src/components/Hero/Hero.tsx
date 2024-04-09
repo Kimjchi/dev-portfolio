@@ -11,9 +11,9 @@ interface HeroProps {
 export default function Hero(props: HeroProps) {
     return (
         <>
-            <Section row nopadding>
+            <Section row="true" nopadding="true">
             <LeftSection>
-                <SectionTitle main center>
+                <SectionTitle main="true" center="true">
                 Welcome To <br />
                 My Personal Portfolio
                 </SectionTitle>
