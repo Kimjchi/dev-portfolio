@@ -4,11 +4,9 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-interface HeroProps {
-    handleClick?: () => void;
-}
 
-export default function Hero(props: HeroProps) {
+
+export default function Hero() {
     return (
         <>
             <Section row="true" nopadding="true">
@@ -18,9 +16,11 @@ export default function Hero(props: HeroProps) {
                 My Personal Portfolio
                 </SectionTitle>
                 <SectionText>
-                The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+                My name is Jérémy Kim. I'm a full stack developer from Paris, France with a small passion for creative stuff.
                 </SectionText>
-                <Button onClick={props.handleClick}>Learn More</Button>
+                <a href="https://strapi-production-e78b.up.railway.app/uploads/CV_2024_bb37cde0c3.pdf" target="blank">
+                    <Button>Learn More</Button>
+                </a>
             </LeftSection>
             </Section>
         </>

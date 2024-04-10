@@ -36,13 +36,13 @@ export default function Header() {
             </li>        
             </Div2>
             <Div3>
-                <SocialIcons href="https://google.com">
+                <SocialIcons href="https://github.com/Kimjchi">
                 <AiFillGithub size="3rem" />
                 </SocialIcons>
-                <SocialIcons href="https://google.com">
+                <SocialIcons href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-v-kim/">
                 <AiFillLinkedin size="3rem" />
                 </SocialIcons>
-                <SocialIcons href="https://google.com">
+                <SocialIcons href="https://www.instagram.com/kimjchi/">
                 <AiFillInstagram size="3rem"/>
                 </SocialIcons>
             </Div3>

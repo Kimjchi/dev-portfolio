@@ -10,7 +10,7 @@ export default function Technologies() {
             <SectionTitle>Technologies</SectionTitle>
             <SectionText>
             I've worked with a range a technologies in the web development world.
-            From Back-end To Design
+            From Back-end, databases to Design. But I enjoy Front-end the most where my creativity can shine.
             </SectionText>
             <List>
             <ListItem>
@@ -20,8 +20,9 @@ export default function Technologies() {
                 <ListContainer>
                 <ListTitle>Front-End</ListTitle>
                 <ListParagraph>
-                    Experiece with <br />
-                    React.js
+                    Experience with frameworks like<br />
+                    React.js, Angular, Vue and Svelte<br />
+                    And libraries like Redux, Tailwind, D3, GSAP
                 </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -33,7 +34,7 @@ export default function Technologies() {
                 <ListTitle>Back-End</ListTitle>
                 <ListParagraph>
                     Experience with <br />
-                    Node and Databases
+                    Node, Python, Django and Databases (PostgreSQL, MongoDB, MySQL)
                 </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -45,7 +46,7 @@ export default function Technologies() {
                 <ListTitle>UI/UX</ListTitle>
                 <ListParagraph>
                     Experience with <br />
-                    tools like Figma
+                    tools like Figma, Blender, Photoshop and Illustrator
                 </ListParagraph>
                 </ListContainer>
             </ListItem>

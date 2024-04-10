@@ -10,27 +10,27 @@ export default function Footer() {
           <LinkList>
             <LinkColumn>
               <LinkTitle>Call</LinkTitle>
-              <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+              <LinkItem href="tel:+33 6 25 07 39 70">+33 6 25 07 39 70</LinkItem>
             </LinkColumn>
             <LinkColumn>
               <LinkTitle>Email</LinkTitle>
-              <LinkItem href="mailto:contact@jsmastery.com">
-                contact@jsmastery.com
+              <LinkItem href="mailto:jeremy.vir.kim@gmail.com">
+                jeremy.vir.kim@gmail.com
               </LinkItem>
             </LinkColumn>
           </LinkList>
           <SocialIconsContainer>
             <CompanyContainer>
-              <Slogan>Innovating one project at a time</Slogan>
+              <Slogan>Experimenting with everything I can get my hands on</Slogan>
             </CompanyContainer>
             <SocialContainer>
-              <SocialIcons href="https://google.com">
+              <SocialIcons href="https://github.com/Kimjchi">
                 <AiFillGithub size="3rem" />
               </SocialIcons>
-              <SocialIcons href="https://google.com">
+              <SocialIcons href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-v-kim/">
                 <AiFillLinkedin size="3rem" />
               </SocialIcons>
-              <SocialIcons href="https://google.com">
+              <SocialIcons href="https://www.instagram.com/kimjchi/">
                 <AiFillInstagram size="3rem" />
               </SocialIcons>
             </SocialContainer>

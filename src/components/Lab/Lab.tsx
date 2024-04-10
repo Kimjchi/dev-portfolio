@@ -29,7 +29,7 @@ export default function Lab() {
         <Section id="lab">
             <SectionTitle>Lab</SectionTitle>
             <SectionText>
-                I've recently wanted to experiment with creative web technologies 2D or 3D. Here's some fun expriments I've been working on.
+                I've recently wanted to experiment with creative web technologies 2D or 3D. Here's some fun experiments I've been working on.
             </SectionText>
             <SliderContainer>
                 <SliderOverlay>

@@ -3,10 +3,10 @@ import { Section, SectionTitle, SectionDivider } from "../../styles/GlobalCompon
 import { Boxes, Box, BoxNum, BoxText } from "./Accomplishments";
 
 const data = [
-    { number: 20, text: 'Open Source Projects'},
-    { number: 1000, text: 'Students', },
-    { number: 1900, text: 'Github Followers', },
-    { number: 5000, text: 'Github Stars', }
+    { number: 30, text: 'Personal Projects'},
+    { number: 20, text: 'Country visited', },
+    { number: 2000, text: 'Manga chapters read', },
+    { number: 10, text: 'Plants still alive', }
   ];
 
 export default function Accomplishment() {

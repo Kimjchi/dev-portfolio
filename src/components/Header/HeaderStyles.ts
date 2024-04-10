@@ -18,6 +18,7 @@ export const Container = styled.div`
   }
 `;
 export const Div1 = styled.div`
+  margin-left: 1em;
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
