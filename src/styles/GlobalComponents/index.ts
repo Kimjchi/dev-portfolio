@@ -86,7 +86,12 @@ export const SectionText = styled.p`
   }
 `
 
-export const SectionDivider = styled.div`
+interface SectionDividerProps {
+  divider?: string;
+  coloralt?: string;
+}
+
+export const SectionDivider = styled.div<SectionDividerProps>`
 
   width: 64px;
   height: 6px;
