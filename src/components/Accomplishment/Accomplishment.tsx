@@ -4,7 +4,7 @@ import { Boxes, Box, BoxNum, BoxText } from "./Accomplishments";
 
 const data = [
     { number: 30, text: 'Personal Projects'},
-    { number: 20, text: 'Country visited', },
+    { number: 20, text: 'Countries visited', },
     { number: 2000, text: 'Manga chapters read', },
     { number: 10, text: 'Plants still alive', }
   ];
