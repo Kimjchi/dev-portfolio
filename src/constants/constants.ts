@@ -19,13 +19,22 @@ export const projects = [
       id: 1,
     },
     {
+      title: 'Obangsaek',
+      description: `A blog website using react, next.js and tailwind. I also used a headless CMS Hygraph to update the content of the website easily.
+      This also gave me a chance to practice my GraphQL skills.`,
+      image: 'https://strapi-production-e78b.up.railway.app/uploads/Capture_d_ecran_2024_04_10_a_14_52_36_b516bdfa8c.png',
+      tags: ['React', 'Next', 'Tailwind', 'Hygraph', 'GraphQL'],
+      visit: 'https://www.obangsaek.fr/',
+      id: 2,
+    },
+    {
       title: 'Photography portfolio',
       description: `A portfolio for my photography work. I used Strapi as a headless CMS to manage my photos. 
       I also used React and tailwind to create a modern UI.`,
         image: 'https://strapi-production-e78b.up.railway.app/uploads/Capture_d_ecran_2024_04_10_a_04_40_14_e8f5f61356.png',
         tags: ['React', 'Strapi', 'Tailwind'],
       visit: 'https://photo-portfolio-puce.vercel.app/',
-      id: 2,
+      id: 3,
     },
     {
       title: 'Jammmming',
@@ -33,7 +42,7 @@ export const projects = [
       image: 'https://strapi-production-e78b.up.railway.app/uploads/projet_Jamming_e0e1cd8_d1e778a0eb.png',
       tags: ['React', 'Spotify API'],
       visit: 'http://jamming.jeremykim.fr/',
-      id: 3,
+      id: 4,
     },
     {
       title: 'Ravenous',
@@ -41,7 +50,7 @@ export const projects = [
       image: 'https://strapi-production-e78b.up.railway.app/uploads/projet_Ravenous_a78f360_06cf170662.png',
       tags: ['React', 'Yelp API'],
       visit: 'http://ravenous.jeremykim.fr/',
-      id: 3,
+      id: 5,
     },
   ];
   

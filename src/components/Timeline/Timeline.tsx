@@ -98,7 +98,7 @@ export default function Timeline() {
                 </>
             </CarouselContainer>
             <CarouselButtons>
-                {TimeLineData.map((item, index) => {
+                {TimeLineData.map((_, index) => {
                 return (
                     <CarouselButton
                     key={index}

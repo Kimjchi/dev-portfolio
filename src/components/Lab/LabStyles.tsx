@@ -44,6 +44,10 @@ export const SliderDescription = styled.span`
     @media ${props => props.theme.breakpoints.md} {
         padding: 0 3em;
       }
+
+      @media ${props => props.theme.breakpoints.sm} {
+        font-size: 17px;
+      }
 `
 
 export const ImageContainer = styled.img`
