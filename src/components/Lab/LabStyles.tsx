@@ -28,7 +28,7 @@ export const SliderOverlay = styled.div`
 `;
 
 export const SliderDescription = styled.span`
-    font-size: 35px;
+    font-size: 25px;
     color: #ffffff !important;
     text-align: center;
     margin: auto;
@@ -37,8 +37,13 @@ export const SliderDescription = styled.span`
     left: 0;
     bottom: 0;
     right: 0;
+    padding: 0 6em;
     height: 50px;
     text-decoration: none;
+
+    @media ${props => props.theme.breakpoints.md} {
+        padding: 0 3em;
+      }
 `
 
 export const ImageContainer = styled.img`
