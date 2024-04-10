@@ -28,6 +28,11 @@ export default function Header() {
                 <Link href="#about">
                 <NavLink>About</NavLink>
                 </Link>
+            </li>
+            <li>
+                <Link href="#lab">
+                <NavLink>Lab</NavLink>
+                </Link>
             </li>        
             </Div2>
             <Div3>
