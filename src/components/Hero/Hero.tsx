@@ -18,7 +18,7 @@ export default function Hero() {
                 <SectionText>
                 My name is Jérémy Kim. I'm a full stack developer from Paris, France with a small passion for creative stuff.
                 </SectionText>
-                <a href="https://strapi-production-e78b.up.railway.app/uploads/CV_2024_bb37cde0c3.pdf" target="blank">
+                <a href="https://strapi-production-e78b.up.railway.app/uploads/CV_2024_bb37cde0c3_1ecbaa377d.pdf" target="blank">
                     <Button>Learn More</Button>
                 </a>
             </LeftSection>
