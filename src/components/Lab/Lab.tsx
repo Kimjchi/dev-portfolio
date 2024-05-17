@@ -7,6 +7,11 @@ import { SliderContainer, ImageContainer, NavButton, SliderLink, DotContainer, D
 export default function Lab() {
     const config = [
         {
+            link: "https://portal-scene-flame.vercel.app/",
+            description: "A portal scene made in blender and put on the web using ThreeJS. The goal was to start working with 3D modeling software to create a complex and interesting render and see how it would look on a website.",
+            image: "https://strapi-production-e78b.up.railway.app/uploads/Portal_scene_a3a6b6c9dc.png"
+        },
+        {
             link: "https://18-galaxy-generator-ivory.vercel.app/",
             description: "A galaxy generator using ThreeJS. The goal was to play around particles, debugging UI and maths to create galaxies.",
             image: "https://strapi-production-e78b.up.railway.app/uploads/Galaxy_Generator_29ee3077b4.png"
