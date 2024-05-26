@@ -12,6 +12,11 @@ export default function Lab() {
             image: "https://strapi-production-e78b.up.railway.app/uploads/Portal_scene_a3a6b6c9dc.png"
         },
         {
+            link: "https://fun-portfolio-with-r3f.vercel.app/",
+            description: "A fun portfolio using React Three Fiber. I wanted to play around with this library and put the current website inside a 3D scene.",
+            image: "https://strapi-production-e78b.up.railway.app/uploads/Capture_d_ecran_2024_05_26_a_20_26_02_ff05061527.png"
+        },
+        {
             link: "https://18-galaxy-generator-ivory.vercel.app/",
             description: "A galaxy generator using ThreeJS. The goal was to play around particles, debugging UI and maths to create galaxies.",
             image: "https://strapi-production-e78b.up.railway.app/uploads/Galaxy_Generator_29ee3077b4.png"
